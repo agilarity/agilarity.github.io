@@ -1,0 +1,36 @@
+# Site owner
+owner:
+  name: "Joseph Cruz"
+  email: agilarity@gmail.com
+  twitter: agilarity
+  intp: "http://www.16personalities.com/intp-personality"
+  jac_profile: "http://www.16personalities.com/profiles/56756b4ebaa89"
+
+title: Agilarity
+email: agilarity@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Improving software practice
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://http://agilarity.github.io" # the base hostname & protocol for your site
+
+markdown: kramdown
+permalink: /:categories/:title/
+exclude: [".sass-cache", ".jekyll-metadata", "readme.md"]
+locale: en_US
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      author: "Joseph Cruz"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      categories: blog
+      
+# Personality Links
+intp: "http://www.16personalities.com/intp-personality"
+jac_profile: "http://www.16personalities.com/profiles/56756b4ebaa89"
+
